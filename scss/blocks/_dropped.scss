@@ -1,0 +1,110 @@
+.dropped{
+    
+    &__img{
+        margin-left: 100px;
+        margin-top: 179px;
+    }
+    &__list{
+        list-style-type: none;
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+    &__title{
+        font-size: 50px;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.3);
+    }
+    &__titlefff{
+        color: #fff;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    &__hr{
+        border: 2px solid rgba(255, 0, 0, 0.3);
+    }
+    &__hrfff{
+        border: 2px solid #FF0000;
+    }
+    &__fieldset{
+        border: 1px solid rgba(165, 165, 165, 0.2);
+        box-sizing: border-box;
+        width: 770px;
+        height: 350px;
+        margin-left: 120px;
+    }
+    &__list2{
+        list-style-type: none;
+        margin-top: 140px;
+        display: flex;
+    }
+    &__legend--item{
+        color: #fff;
+        font-weight: 700;
+        font-size: 26px;
+        margin-left: -8px;
+        margin-top: -7px;
+        list-style-type: disc;
+    }
+    &__fieldset--text{
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+    &__fieldset--title{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 43px;
+        margin-top: 5px;
+    }
+    &__fieldset--title2{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 490px;
+        margin-top: -40px;
+    }
+    &__fieldset--title3{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 43px;
+        margin-top: 100px;
+    }
+    &__fieldset--title4{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 43px;
+        margin-top: 50px;
+    }
+    &__fieldset2{
+        border: 1px solid rgba(165, 165, 165, 0.2);
+        box-sizing: border-box;
+        width: 770px;
+        height: 350px;
+        margin-left: 163px;
+        margin-top: 30px;
+    }
+    &__item2{
+        display: inline-block;
+    }
+    &__fieldset3{
+        border: 1px solid rgba(165, 165, 165, 0.2);
+        box-sizing: border-box;
+        width: 770px;
+        height: 350px;
+        margin-left: 120px;
+        margin-top: 30px;
+    }
+    &__fieldset--title5{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 43px;
+        margin-top: 33px;
+    }
+}

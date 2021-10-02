@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    background-color: #fff;
+    width: 1920px;
+    max-height: 100vh;
+    justify-content: center;
+    
+    &__menu{
+        margin-top: 40px;
+        position: absolute;
+        margin-left: -850px;
+    }
+    &__logo{
+        margin-left: 700px;
+    }
+    &__btn{
+        background-color:  #ED111D;
+        padding-left: 29px;
+        padding-top: 11px;
+        width: 121px;
+        height: 35px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 33px;
+        margin-left: 700px;
+    }
+}

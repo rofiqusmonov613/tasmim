@@ -1,0 +1,38 @@
+.akula{
+    margin-top: 200px;
+    margin-left: 100px;
+    
+    &__list{
+        list-style-type: none;
+        display: flex;
+        margin-left: -77px;
+        margin-top: 50px;
+        
+        &::before{
+            content: url('/img/Vector-chapga.svg');
+            padding-top: 280px;
+        }
+        &::after{
+            content: url('/img/Vector.svg');
+            padding-top: 280px;
+            margin-left: -88px;
+        }
+    }
+    &__item{
+        margin-right: 88px;
+        
+        &:nth-child(2){
+            margin-left: -66px;
+        }
+    }
+    &__title{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 26px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    &__text{
+        color: #fff;
+        font-size: 26px;
+    }
+}
