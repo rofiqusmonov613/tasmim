@@ -26,6 +26,12 @@
         margin-top: -285px;
         list-style-type: none;
     }
+    &__internet{
+        opacity: 0.5;
+        &:hover{
+            opacity: 1;
+        }
+    }
     &__title2{
         color: rgba(0, 0, 0, 0.8);
         font-size: 26px;

@@ -1,6 +1,10 @@
 .akula{
     margin-top: 200px;
     margin-left: 100px;
+
+    &__nasha{
+        cursor: pointer;
+    }
     
     &__list{
         list-style-type: none;
@@ -11,11 +15,13 @@
         &::before{
             content: url('/img/Vector-chapga.svg');
             padding-top: 280px;
+            cursor: pointer;
         }
         &::after{
             content: url('/img/Vector.svg');
             padding-top: 280px;
             margin-left: -88px;
+            cursor: pointer;
         }
     }
     &__item{
@@ -34,5 +40,42 @@
     &__text{
         color: #fff;
         font-size: 26px;
+    }
+    &__blur{
+        position: absolute;
+        margin-top: -600px;
+        width: 362px;
+        height: 594px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 2px solid rgba(87, 87, 87, 0.79);
+        display: flex;
+        box-sizing: border-box; 
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        &:hover{
+            opacity: 1;
+        backdrop-filter: blur(30px);
+        transition: 1.5s ease all;
+        }
+
+
+        &--link{
+            color: #fff;
+            font-weight: 500;
+            font-size: 18px;
+            text-decoration: none;
+        }
+    }
+    &__ellipse{
+        position: absolute;
+        box-sizing: border-box;
+        border: 2px solid #B1ACAC;
+        width: 130px;
+        height: 130px;
+        text-align: center;
+        padding-top: 48px;
+        border-radius: 50%;
+        cursor: pointer;
     }
 }

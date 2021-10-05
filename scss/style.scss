@@ -44,4 +44,43 @@ body{
     background-color: #161616;
     
 }
-
+.team {
+    margin-top: 180px;
+    padding-bottom: 163px;
+  }
+  
+  .team__wrapper {
+    margin-top: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .team__card {
+    width: 392px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .team__card:hover .hover {
+    opacity: 1;
+    -webkit-transition: 700ms;
+    transition: 700ms;
+    cursor: pointer;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  
+  .team__card:hover .hover__text {
+    -webkit-transition: 700ms;
+    transition: 700ms;
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    cursor: pointer;
+  }

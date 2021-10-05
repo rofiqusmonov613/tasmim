@@ -10,10 +10,11 @@
         position: absolute;
         margin-left: -850px;
     }
-    &__logo{
-        margin-left: 700px;
+    &__link{
+        position: absolute;
     }
     &__btn{
+        position: absolute;
         background-color:  #ED111D;
         padding-left: 29px;
         padding-top: 11px;
@@ -25,6 +26,13 @@
         text-decoration: none;
         border-radius: 5px;
         margin-top: 33px;
-        margin-left: 700px;
+        margin-left: 1605px;
+
+        &:hover{
+            border: 1.5px solid #ED111D;
+            background-color: transparent;
+            transition: 1s ease all;
+            color: #ED111D;
+        }
     }
 }

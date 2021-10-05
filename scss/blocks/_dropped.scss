@@ -3,6 +3,7 @@
     &__img{
         margin-left: 100px;
         margin-top: 179px;
+        cursor: pointer;
     }
     &__list{
         list-style-type: none;
@@ -13,18 +14,24 @@
     &__title{
         font-size: 50px;
         font-weight: 700;
-        color: rgba(255, 255, 255, 0.3);
+        color: #fff;
+        opacity: 0.3;
+        cursor: pointer;
     }
     &__titlefff{
         color: #fff;
         font-size: 50px;
         font-weight: 700;
+        cursor: pointer;
     }
     &__hr{
-        border: 2px solid rgba(255, 0, 0, 0.3);
+        border: 1px solid #FF0000;
+        opacity: 0.3;
+        margin-top: -20px;
     }
     &__hrfff{
-        border: 2px solid #FF0000;
+        border: 1px solid #FF0000;
+        margin-top: -20px;
     }
     &__fieldset{
         border: 1px solid rgba(165, 165, 165, 0.2);
@@ -66,6 +73,8 @@
         font-weight: 700;
         margin-left: 490px;
         margin-top: -40px;
+        text-decoration: none;
+        cursor: pointer;
     }
     &__fieldset--title3{
         color: #fff;
