@@ -1,0 +1,130 @@
+.shabnam{
+    width: 1920px;
+    height: 850px;
+    background: #161616;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    &__text{
+        text-align: center;
+        color: #fff;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 140%;
+        margin-top: -20px;
+    }
+    &__title{
+        text-align: center; 
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 130%;
+        color: #fff;
+    }
+    &__name{
+        padding-left: 5px;
+        background-color: transparent;
+        position: absolute;
+        border: none;
+        width: 645px;
+        height: 40px;
+        margin-top: 80px;
+        margin-left: 670px;
+        font-weight: 700;
+        font-size: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        color: rgba(255, 255, 255, 0.3);
+        &:focus{
+            outline: none;
+        }
+        &::placeholder{
+            font-weight: 700;
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.3);
+        }
+    }
+    &__username{
+        position: absolute;
+        padding-left: 5px;
+        background-color: transparent;
+        border: none;
+        width: 645px;
+        height: 40px;
+        margin-top: 170px;
+        margin-left: 670px;
+        font-weight: 700;
+        font-size: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        color: rgba(255, 255, 255, 0.3);
+        &:focus{
+            outline: none;
+        }
+        &::placeholder{
+            font-weight: 700;
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.3);
+        }
+    }
+    &__number{
+        position: absolute;
+        padding-left: 5px;
+        background-color: transparent;
+        border: none;
+        width: 645px;
+        height: 40px;
+        margin-top: 270px;
+        margin-left: 670px;
+        font-weight: 700;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        &:focus{
+            outline: none;
+        }
+        &::placeholder{
+            font-weight: 700;
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.3);
+        }
+    }
+    &__textarea{
+        position: absolute;
+        width: 663px;
+        font-weight: 700;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.3);
+        background-color: transparent;
+        margin-left: 670px;
+        border: none;
+        margin-top: 266px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        &--title{
+            color: rgba(255, 255, 255, 0.3);
+            position: absolute;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 156.02%;
+            margin-left: 675px;
+            margin-top: 370px;
+        }
+        
+        &:focus{
+            outline: none;
+        }
+    }
+    &__btn{
+        width: 150px;
+        height: 45px;
+        margin-top: 600px;
+        position: absolute;
+        margin-left: 900px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        border: none;
+    }
+    &__link{
+        color: #000;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

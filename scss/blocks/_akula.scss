@@ -1,7 +1,7 @@
 .akula{
     margin-top: 200px;
     margin-left: 100px;
-
+    
     &__nasha{
         cursor: pointer;
     }
@@ -55,11 +55,11 @@
         opacity: 0;
         &:hover{
             opacity: 1;
-        backdrop-filter: blur(30px);
-        transition: 1.5s ease all;
+            backdrop-filter: blur(30px);
+            transition: 1.5s ease all;
         }
-
-
+        
+        
         &--link{
             color: #fff;
             font-weight: 500;
