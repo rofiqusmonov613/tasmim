@@ -6,9 +6,9 @@
     justify-content: center;
     
     &__menu{
-        margin-top: 40px;
+        margin-top: 33px;
         position: absolute;
-        margin-left: -850px;
+        margin-left: -900px;
     }
     &__link{
         position: absolute;
@@ -25,11 +25,11 @@
         color: #fff;
         text-decoration: none;
         border-radius: 5px;
-        margin-top: 33px;
-        margin-left: 1605px;
+        margin-top: 28px;
+        margin-left: 1550px;
+        border: 2px solid #ED111D;
 
         &:hover{
-            border: 1.5px solid #ED111D;
             background-color: transparent;
             transition: 1s ease all;
             color: #ED111D;

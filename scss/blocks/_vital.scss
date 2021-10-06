@@ -1,0 +1,109 @@
+.vital{
+    margin-top: 150px;
+    &__list{
+        list-style-type: none;
+        &--list{
+            list-style-type: none;
+            display: flex;
+            margin-top: 55px;
+            justify-content: space-between;
+        }
+        &--list2{
+            list-style-type: none;
+            display: flex;
+            margin-top: 15px;
+            justify-content: space-between;
+        }
+        &--item{
+            margin-right: 171px;
+            &:nth-child(2){
+                margin-top: 92px;
+            }
+        }
+    }
+    &__hr{
+        width: 850px;
+        height: 5px;
+        background-color: #000000;
+        border: none;
+        margin-left: -40px;
+    }
+    &__title{
+        position: absolute;
+        margin-left: 830px;
+        margin-top: -4px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 100.52%;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__img{
+        position: absolute;
+        margin-top: -14px;
+        margin-left: 970px;
+    }
+    &__span{
+        display: flex;
+    }
+    &__hr2{
+        width: 850px;
+        height: 5px;
+        background-color: #000000;
+        border: none;
+        margin-left: 840px;
+    }
+    &__title2{
+        position: absolute;
+        margin-left: 830px;
+        margin-top: -4px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 100.52%;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &__img2{
+        position: absolute;
+        margin-top: -14px;
+        margin-left: 970px;
+    }
+    &__span2{
+        display: flex;
+    }
+    &__item{
+        margin-bottom: 100px;
+    }
+    &__item2{
+        margin-bottom: 100px;
+    }
+    &__h2{
+        color: #000000;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 140%;
+    }
+    &__text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 140%;
+        color: #000000;
+    }
+    &__h3{
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 140%;
+        color: #000000;
+    }
+    &__text2{
+        margin-top: -12px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 140%;
+        color: #000000;
+    }
+}

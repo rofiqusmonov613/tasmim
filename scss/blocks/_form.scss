@@ -31,6 +31,7 @@
         margin-left: 42px;
         font-weight: 700;
         font-size: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
         color: rgba(255, 255, 255, 0.3);
         &:focus{
             outline: none;
@@ -52,6 +53,7 @@
         margin-left: -380px;
         font-weight: 700;
         font-size: 20px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
         color: rgba(255, 255, 255, 0.3);
         &:focus{
             outline: none;
@@ -74,6 +76,7 @@
         font-weight: 700;
         font-size: 20px;
         color: rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
         &:focus{
             outline: none;
         }
@@ -95,7 +98,16 @@
         margin-left: 220px;
         margin-top: 88px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        
+        &--title{
+            color: rgba(255, 255, 255, 0.3);
+            position: absolute;
+            margin-top: -35px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 156.02%;
+            margin-left: 633px;
+        }
         
         &:focus{
             outline: none;
@@ -116,28 +128,5 @@
         text-decoration: none;
         font-size: 18px;
         font-weight: 500;
-    }
-    &__border{
-        position: absolute;
-        width: 376px;
-        height: 1px;
-        margin-left: 40px;
-        background: linear-gradient(to right,rgba(225, 225, 225, 0),rgba(225, 225, 225, 0.9323),rgba(225, 225, 225, 0));
-    }
-    &__border2{
-        position: absolute;
-        width: 376px;
-        height: 1px;
-        margin-left: 40px;
-        margin-top: 102px;
-        background: linear-gradient(to right,rgba(225, 225, 225, 0),rgba(225, 225, 225, 0.9323),rgba(225, 225, 225, 0));
-    }
-    &__border3{
-        position: absolute;
-        width: 376px;
-        height: 1px;
-        margin-left: 40px;
-        margin-top: 204px;
-        background: linear-gradient(to right,rgba(225, 225, 225, 0),rgba(225, 225, 225, 0.9323),rgba(225, 225, 225, 0));
     }
 }

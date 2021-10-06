@@ -41,7 +41,7 @@
             opacity: 0.4;
             &:hover{
                 opacity: 1;
-                transition: .9s ease all;
+                transition: 1s ease all;
             }
     }
     &__item2{
@@ -58,10 +58,10 @@
         justify-content: space-between;
     }
     &__list3--img{
-        opacity: 0.5;
+        opacity: 0.6;
         &:hover{
             opacity: 1;
-            transition: .9s ease all;
+            transition: 1s ease all;
         }
     }
     &__item3{
@@ -76,5 +76,6 @@
     }
     &__fixed{
         position: fixed;
+        margin-left: -50px;
     }
 }

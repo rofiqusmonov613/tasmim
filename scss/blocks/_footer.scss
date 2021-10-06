@@ -27,9 +27,10 @@
         list-style-type: none;
     }
     &__internet{
-        opacity: 0.5;
+        opacity: 0.6;
         &:hover{
             opacity: 1;
+            transition: 1.5s ease all;
         }
     }
     &__title2{
